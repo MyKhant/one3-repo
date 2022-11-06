@@ -20,5 +20,6 @@ public class HomeServlet extends HttpServlet{
 			req.getSession().invalidate();
 		}
 		req.getRequestDispatcher("home.jsp").forward(req, resp);
+		
 	}
 }
